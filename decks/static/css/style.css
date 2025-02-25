@@ -1,0 +1,43 @@
+/* Importa una fuente bonita desde Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+body {
+    background: #2c2c2c; /* Fondo gris oscuro */
+    height: 100vh;
+    color: white;
+}
+
+/* Título */
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+/* Botón */
+button {
+    background: white;
+    color: #833ab4;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #833ab4;
+    color: white;
+}
