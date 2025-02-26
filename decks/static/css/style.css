@@ -11,7 +11,8 @@
 }
 
 body {
-    background: #2c2c2c; /* Fondo gris oscuro */
+    background: #f4f4f4;
+    background: linear-gradient(to bottom, #1e1e2e, #3a0ca3);
     height: 100vh;
     color: white;
 }
@@ -40,4 +41,12 @@ button {
 button:hover {
     background: #833ab4;
     color: white;
+}
+
+.user-name {
+    font-weight: bold;
+    color: #ffd700;
+    text-shadow:
+        0 0 10px #ffd700,
+        0 0 20px #ffa500;
 }

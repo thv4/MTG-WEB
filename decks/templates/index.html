@@ -3,16 +3,16 @@
 {% block title %}
 Home
 {% endblock %}
-
+{% load static %}
 
 {% block content %}
 <div class="d-flex flex-column justify-content-center align-items-center vh-100 text-center w-50 mx-auto">
     <main class="px-3">
-        <h1>LOGO</h1>
-        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+        <img class="mb-4" src="{% static '/images/logo.svg' %}" width="300" height="300">
+        <h3 class="mb-4">Ah... <span class="user-name">{{ user }}</span>, he sentido tu llegada en los vientos del Æter. La magia te espera.</h3>
         <p class="lead">
-            <button type="button" class="btn btn-outline-light">Login</button>
-            <button type="button" class="btn btn-warning">Sign-up</button>
+            <button type="button" class="btn btn-outline-light">Buscar</button>
+            <button type="button" class="btn btn-outline-light">Añadir</button>
         </p>
     </main>
 </div>
