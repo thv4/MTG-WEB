@@ -7,7 +7,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    color: white;
 }
 
 body {
@@ -49,4 +48,8 @@ button:hover {
     text-shadow:
         0 0 10px #ffd700,
         0 0 20px #ffa500;
+}
+
+.form-control {
+    color: black;
 }

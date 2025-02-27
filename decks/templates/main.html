@@ -25,6 +25,7 @@
 
     </head>
     <body class="d-flex flex-column min-vh-100">
+        {% csrf_token %}
         {% block content %} {% endblock %}
         <footer class="footer text-center footer-dark">
                 <hr class="mx-5">

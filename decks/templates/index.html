@@ -13,6 +13,10 @@ Home
         <p class="lead">
             <button type="button" class="btn btn-outline-light">Buscar</button>
             <button type="button" class="btn btn-outline-light">Añadir</button>
+            <form action="{% url 'logout' %}" method="post">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-outline-light">Cerrar sesión</button>
+            </form>
         </p>
     </main>
 </div>
