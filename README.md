@@ -1,6 +1,6 @@
-# Nombre de tu aplicación Django
+#  MTG-WEB
 
-¡Bienvenido a mi aplicación Django! Este es un proyecto que [breve descripción de tu aplicación, por ejemplo: "gestiona mazos de cartas de Magic: The Gathering"].
+¡Bienvenido a mi aplicación Django! Este es un proyecto que gestiona mazos de cartas de Magic: The Gathering.
 
 ---
 
@@ -10,9 +10,7 @@
 - pip (gestor de paquetes de Python).
 - Git (opcional, pero recomendado para clonar el repositorio).
 
-
 ---
-
 
 ## Instalación
 
